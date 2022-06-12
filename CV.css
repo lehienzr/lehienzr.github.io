@@ -1,0 +1,219 @@
+.font {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.main_left {
+    width: 20%;
+    background-image: linear-gradient( 102.7deg, rgba(253, 218, 255, 1) 8.2%, rgba(223, 173, 252, 1) 19.6%, rgba(173, 205, 252, 1) 36.8%, rgba(173, 252, 244, 1) 73.2%, rgba(202, 248, 208, 1) 90.9%);
+}
+
+.main_right {
+    width: 20%;
+    background-image: linear-gradient( 102.7deg, rgba(253, 218, 255, 1) 8.2%, rgba(223, 173, 252, 1) 19.6%, rgba(173, 205, 252, 1) 36.8%, rgba(173, 252, 244, 1) 73.2%, rgba(202, 248, 208, 1) 90.9%);
+}
+
+.main_flex {
+    width: 60%;
+    height: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.khoi1 {
+    height: 21%;
+    margin: 0;
+    color: white;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.khoia1 {
+    height: 100%;
+    width: 35%;
+    margin: 0;
+    color: white;
+    background-color: white;
+    background-size: cover;
+}
+
+.khoib1 {
+    height: 100%;
+    width: 65%;
+    margin: 0;
+    background-size: cover;
+    background-color: white;
+}
+
+.khoi2 {
+    height: 79%;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.khoia2 {
+    height: 100%;
+    width: 60%;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.khoib2 {
+    height: 100%;
+    width: 40%;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.766);
+}
+
+.avatar {
+    padding-top: 10%;
+    padding-left: 20%;
+}
+
+.khoii1 {
+    background-color: rgb(192, 255, 229);
+    border-radius: 3%;
+    width: 80%;
+    color: black;
+}
+
+.khoia21 {
+    display: flex;
+    width: 100%;
+    height: 28%;
+    margin: 2%;
+    flex-direction: column;
+}
+
+.khoia211 {
+    background-color: rgb(193, 127, 255);
+    width: 60%;
+    height: 10%;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoia212 {
+    width: 100%;
+    height: 90%;
+}
+
+.khoia22 {
+    display: flex;
+    width: 90%;
+    height: 48%;
+    margin: 2%;
+    flex-direction: column;
+}
+
+.khoia221 {
+    background-color: rgb(193, 127, 255);
+    width: 65%;
+    height: 6%;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoia222 {
+    width: 100%;
+    height: 92%;
+}
+
+.khoia23 {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin: 2%;
+    flex-direction: column;
+}
+
+.khoia231 {
+    background-color: rgb(193, 127, 255);
+    width: 60%;
+    height: 30%;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoia232 {
+    width: 100%;
+    height: 70%;
+}
+
+.khoib21 {
+    display: flex;
+    width: 80%;
+    height: 20%;
+    margin: 2%;
+    flex-direction: column;
+}
+
+.khoib211 {
+    background-color: rgb(193, 127, 255);
+    width: 70%;
+    height: 20%;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoib212 {
+    width: 100%;
+    height: 80%;
+}
+
+.khoib22 {
+    display: flex;
+    width: 80%;
+    height: 20%;
+    margin: 2%;
+    flex-direction: column;
+}
+
+.khoib221 {
+    background-color: rgb(193, 127, 255);
+    width: 70%;
+    height: 15%;
+    border-radius: 2px 30px 30px 2px;
+    color: white;
+    padding-left: 3%;
+}
+
+.khoib222 {
+    width: 100%;
+    height: 80%;
+}
